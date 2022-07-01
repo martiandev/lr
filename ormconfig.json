@@ -1,0 +1,32 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "mars",
+  "database": "lr",
+  "synchronize": false,
+  "dropSchema": false,
+  "keepConnectionAlive": true,
+  "logging": true,
+  "entities": [
+    "C:\\Users\\msi\\Documents\\Work\\LasResort\\lastresort\\last-resort\\src\\database/../**/*.entity{.ts,.js}"
+  ],
+  "migrations": [
+    "C:\\Users\\msi\\Documents\\Work\\LasResort\\lastresort\\last-resort\\src\\database/migrations/**/*{.ts,.js}"
+  ],
+  "seeds": [
+    "C:\\Users\\msi\\Documents\\Work\\LasResort\\lastresort\\last-resort\\src\\database/seeds/**/*{.ts,.js}"
+  ],
+  "factories": [
+    "C:\\Users\\msi\\Documents\\Work\\LasResort\\lastresort\\last-resort\\src\\database/factories/**/*{.ts,.js}"
+  ],
+  "cli": {
+    "entitiesDir": "src",
+    "migrationsDir": "src/database/migrations",
+    "subscribersDir": "subscriber"
+  },
+  "extra": {
+    "max": 100
+  }
+}
